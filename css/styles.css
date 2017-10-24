@@ -35,3 +35,24 @@ section {
 section:hover {
   background: #666;
 }
+
+ul {
+  display: table;
+}
+
+li {
+  display: table-cell;
+  list-style: none;
+  text-align: center;
+  padding-right: 2em;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #31ce73;
+  transition: 1s;
+}
